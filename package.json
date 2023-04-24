@@ -1,0 +1,25 @@
+{
+    "name": "new-try-gpt-stuff",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "npx ts-node ./src/app.ts",
+        "start:dev": "npx nodemon"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^18.16.0",
+        "nodemon": "^2.0.22",
+        "ts-node": "^10.9.1",
+        "typescript": "^5.0.4"
+    },
+    "dependencies": {
+        "dotenv": "^16.0.3",
+        "hnswlib-node": "^1.4.2",
+        "langchain": "^0.0.62",
+        "pdf-parse": "^1.1.1"
+    }
+}
