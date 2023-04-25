@@ -10,6 +10,7 @@
 2. Replace the `LangChain Cookbook.pdf` file in the `docs` folder with your pdfs
 3. Delete the `my_new_store.index` folder (Contains the index file of current docs)
 4. Run `npm i`
-5. Run `npm run start`\
+5. Edit the question in app.ts
+6. Run `npm run start`\
    Output:
 ![](output_demo.png)
